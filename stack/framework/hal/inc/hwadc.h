@@ -54,7 +54,7 @@ typedef enum
 typedef enum
 {
 	/** Temperature reference. */
-	adcInputSingleTemp,
+	adcInputSingleTemp = 100,
 	 /** VDD / 3 */
 	adcInputSingleVDDDiv3,
 	/** Positive Ch4, negative Ch5. */
